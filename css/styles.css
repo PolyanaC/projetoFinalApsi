@@ -1,0 +1,96 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10em;
+}
+.logo-tsi{
+    width: 10em;
+}
+.logo-ifb{
+   width: 3.5em; 
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
+.buttons-container a{
+    width: 7rem;
+    height: 3.4rem;
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.2s;
+    color:  #FFFFFF;
+}
+.buttons-container a img{
+   width:1.5rem; 
+   margin-right: 1.4rem;
+}
+
+.buttons-container a.study{
+    background:  #9871F5;
+}
+.buttons-container a.study:hover{
+    background: #916BEA;
+}
+
+.container-primary{
+    margin-top: 1em;
+    margin-bottom: 10em;   
+}
+.container-primary h1{
+    padding-bottom: 1em;
+}
+
+hr{
+    border-color:#aaa;
+    box-sizing:border-box;
+    width:100%;
+    height: 10px;
+}
+
+.section-video{
+    display: flex;
+}
+.section-video p{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.div-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-video{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+footer{
+    padding-top: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon {
+    margin: 20px 10px;    
+}
+
