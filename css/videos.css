@@ -15,8 +15,12 @@
 body{
     background-color: var(--dark);
 }
-p, button, h1, h4{
+p, h1, h4{
     color:var(--light);
+}
+
+button{
+    color:var(--dark)
 }
 
 p, h1{
@@ -59,12 +63,11 @@ button:hover{
 
 .top_section{
     grid-area: top_section;
-    min-height: 350px;
+    min-height: 370px;
     display:grid;
     grid-template-columns: 10% 1fr 10%;
     grid-template-areas:
     ". header .";
-    background: linear-gradient(var(--overlay), var(--overlay)), url(../images/tsiLogo.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
