@@ -270,3 +270,58 @@ h1{
 #p{
 	color: #008000 !important;
 }
+/* Sessão do card de enquete*/
+.card-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.card{
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0 0 5px 0px #e2e2e2;
+  background-color: #ecf1ab;
+  position: relative;
+  cursor: pointer;
+}
+
+.link-card:link{
+text-decoration:none;
+}
+
+.card::after,.card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: transform .3s ease-in-out;
+}
+
+.card:before{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  transform: scaleY(0);
+}
+
+.card:hover::before{
+  transform: scaleY(1);
+}
+
+.card:hover::after{
+  transform: scaleX(1);
+}
+.card::after{
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+  transform: scaleX(0);
+}
+
+.text {
+  margin: 20px auto;
+}
+
