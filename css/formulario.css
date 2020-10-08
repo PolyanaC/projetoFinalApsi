@@ -1,11 +1,11 @@
-#div-formulario{
+.formulario{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#div-formulario form{
+.formulario form{
     width: 70%; 
 }
 
@@ -40,7 +40,7 @@
     
 }
 
-#div-formulario form ul{
+.formulario form ul{
     list-style-type: none;
     margin: 0;
     padding: 0;

@@ -34,4 +34,4 @@ $resultado_pesquisa = "INSERT INTO pesuisa_ifb (nome, idade, cidade, turno, area
 ('$nome', '$idade', '$cidade', '$turno', '$r1', NOW())";
 
 $pesquisa = mysqli_query($conn, $resultado_pesquisa);
-header('Location: ../formulario.html');
+header('Location: ../index.html');
