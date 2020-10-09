@@ -1,12 +1,12 @@
-.formulario{
+#div_formulario{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.formulario form{
-    width: 70%; 
+.formularioEnquete{
+    width: 100%;
 }
 
 .sessao-dois, .sessao-tres{
@@ -20,27 +20,28 @@
 .tituloFormulario{
     padding: 3rem 0 3rem 0;
 }
-.h1-formulario{
+.h1_formulario{
     font-size: 1.8em;
+    color: #008000;
 }
 .div-input-text{
     width: 80%;
 }
 
-.sessao-um input{
+.textInput{
    width: 100%; 
    padding: 10px 15px;
    border: none;
    border-bottom: 2px solid #3e978b;
 }
 
-.sessao-um input:focus {
+.textInput:focus{
     background-color:#f6f7d4 ;
     transition: background-color 0.5s ease 0.2s;
     
 }
 
-.formulario form ul{
+.ulFormulario{
     list-style-type: none;
     margin: 0;
     padding: 0;
